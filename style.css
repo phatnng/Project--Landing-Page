@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.logo p{
+    margin-left: 10%;
+}
+
+.logo li{
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.logo .headerThree{
+    margin-right: 400px;
+}
+
+.content h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+    margin-bottom: 20px;
+}
+
+.content .pa{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.content button{
+    display: flex;
+    width: 110px;
+    padding-left: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+
+.image img{
+    background-color: gray;
+    color: white;
+    padding: 100px;
+}
+
+.image{
+    position: relative;
+    left: 990px;
+    top: -250px;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+
+.one{
+    background-color: #1F2937;
+}
+
+
+button{
+    background-color: rgb(28, 118, 202);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.two h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+
+.card-grid{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+
+.card img{
+    border: 3px solid rgb(24, 107, 134);
+    padding: 20px;
+    height: 150px;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.three{
+    background-color: #e5e7eb;
+}
+
+.action{
+    background-color: rgb(28, 118, 202);
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    color: white;
+}
+
+.action .call{
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+.action button{
+    font-size: 24px;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid white;
+}
+
+
+.quote{
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+    font-style: italic;
+    padding: 150px;
+    margin-left: 450px;
+}
+
+.sign{
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    left: 1100px;
+    top: -150px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
