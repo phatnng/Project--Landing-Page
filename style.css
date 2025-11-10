@@ -6,7 +6,8 @@
 
 body{
     font-family: "Roboto", sans-serif;
-
+    background-color: whitesmoke;
+    overflow-x: hidden;
 }
 
 header{
